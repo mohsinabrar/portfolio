@@ -27,9 +27,9 @@ const skillCategories = [
     title: 'Backend',
     skills: [
       { name: 'Node.js', level: 75 },
-      { name: 'Express', level: 75 },
-      { name: 'APIs', level: 80 },
-      { name: 'REST Services', level: 78 },
+      { name: 'Express.js', level: 75 },
+      { name: 'REST APIs', level: 80 },
+      { name: 'Flask', level: 70 },
     ],
     color: 'from-accent to-cyan-500',
   },
@@ -125,7 +125,7 @@ export default function Skills() {
         >
           <p className="text-gray-400 mb-4">Also familiar with</p>
           <div className="flex flex-wrap gap-3 justify-center">
-            {['Next.js', 'TypeScript', 'MongoDB', 'PostgreSQL', 'AWS', 'Firebase', 'Figma', 'Linux'].map((tech) => (
+            {['Next.js', 'TypeScript', 'MongoDB', 'PostgreSQL', 'n8n', 'Prompt Engineering', 'Claude', 'ChatGPT', 'Cursor AI', 'Lovable'].map((tech) => (
               <motion.span
                 key={tech}
                 whileHover={{ scale: 1.05 }}

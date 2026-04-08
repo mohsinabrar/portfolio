@@ -6,9 +6,9 @@ import { Download, Mail, ArrowDown, ExternalLink } from 'lucide-react'
 
 const roles = [
   'Web Developer',
-  'AI & ML Enthusiast',
-  'Python Developer',
   'Backend Developer',
+  'AI & ML Enthusiast',
+  'Full Stack Developer',
 ]
 
 export default function Hero() {
@@ -89,8 +89,8 @@ export default function Hero() {
           transition={{ duration: 0.5, delay: 0.3 }}
           className="text-gray-400 text-lg max-w-2xl mx-auto mb-8"
         >
-          A passionate B.Tech Computer Science student building innovative web solutions
-          and exploring the fascinating world of Artificial Intelligence & Machine Learning.
+          B.Tech Computer Science student (2026, AKTU) who loves building things with technology.
+          Passionate about web development and exploring AI tools to create useful applications.
         </motion.p>
 
         {/* CTA Buttons */}

@@ -1,4 +1,4 @@
-'use client'
+ 'use client'
 
 import { useState } from 'react'
 import { motion } from 'framer-motion'
@@ -96,7 +96,7 @@ export default function Contact() {
 
               <div className="space-y-4">
                 <a
-                  href="mailto:mohsinabrar@email.com"
+                  href="mailto:mohdmohsinabrar6@gmail.com"
                   className="flex items-center gap-4 p-4 rounded-xl bg-white/5 hover:bg-white/10 transition-colors group"
                 >
                   <div className="w-12 h-12 rounded-xl bg-gradient-to-r from-primary to-secondary flex items-center justify-center group-hover:scale-110 transition-transform">
@@ -104,12 +104,12 @@ export default function Contact() {
                   </div>
                   <div>
                     <p className="text-sm text-gray-400">Email</p>
-                    <p className="text-white">mohsinabrar@email.com</p>
+                    <p className="text-white">mohdmohsinabrar6@gmail.com</p>
                   </div>
                 </a>
 
                 <a
-                  href="tel:+919876543210"
+                  href="tel:+917652061770"
                   className="flex items-center gap-4 p-4 rounded-xl bg-white/5 hover:bg-white/10 transition-colors group"
                 >
                   <div className="w-12 h-12 rounded-xl bg-gradient-to-r from-secondary to-purple-500 flex items-center justify-center group-hover:scale-110 transition-transform">
@@ -117,7 +117,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <p className="text-sm text-gray-400">Phone</p>
-                    <p className="text-white">+91 98765 43210</p>
+                    <p className="text-white">+91 76520 61770</p>
                   </div>
                 </a>
 
@@ -181,7 +181,7 @@ export default function Contact() {
                   animate={{ opacity: 1, y: 0 }}
                   className="mb-6 p-4 rounded-xl bg-green-500/20 border border-green-500/30 text-green-400"
                 >
-                  Message sent successfully! I&apos;ll get back to you soon.
+                  Message sent successfully! I'll get back to you soon.
                 </motion.div>
               )}
 
@@ -273,3 +273,4 @@ export default function Contact() {
     </section>
   )
 }
+

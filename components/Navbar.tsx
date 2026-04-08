@@ -62,10 +62,10 @@ export default function Navbar() {
           {/* Social Links - Desktop */}
           <div className="hidden md:flex items-center gap-4">
             <a href="https://github.com/mohsinabrar" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
-              <Github size={20} />
+              <Github className="w-5 h-5" />
             </a>
             <a href="https://linkedin.com/in/mohsinabrar" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
-              <Linkedin size={20} />
+              <Linkedin className="w-5 h-5" />
             </a>
           </div>
 
@@ -74,7 +74,7 @@ export default function Navbar() {
             className="md:hidden text-white"
             onClick={() => setIsOpen(!isOpen)}
           >
-            {isOpen ? <X size={24} /> : <Menu size={24} />}
+{isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
           </button>
         </div>
 
@@ -98,10 +98,10 @@ export default function Navbar() {
             ))}
             <div className="flex items-center gap-4 mt-4 pt-4 border-t border-white/10">
               <a href="https://github.com/mohsinabrar" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white">
-                <Github size={20} />
+                <Github className="w-5 h-5" />
               </a>
               <a href="https://linkedin.com/in/mohsinabrar" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white">
-                <Linkedin size={20} />
+                <Linkedin className="w-5 h-5" />
               </a>
             </div>
           </motion.div>

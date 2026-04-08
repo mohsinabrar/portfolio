@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import { Space_Grotesk, Inter } from 'next/font/google'
-import './globals.css'
+// import './globals.css' // Static export disables CSS imports in layout
 
 const spaceGrotesk = Space_Grotesk({
   subsets: ['latin'],

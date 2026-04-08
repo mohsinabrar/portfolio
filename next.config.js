@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-// output: 'export', // Revert for full SSR (animations/JS work perfectly)
+  output: 'export',
   images: {
     unoptimized: true,
   },
